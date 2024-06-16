@@ -15,7 +15,6 @@ const Navbar = () => {
         { name: "About", link: "/about" },
         { name: "Services", link: "/services" },
         { name: "Testimonials", link: "/testimonials" },
-        { name: "Portfolio", link: "/portfolio" },
     ];
 
     const toggleMobileNav = () => {
