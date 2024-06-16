@@ -14,7 +14,7 @@ const Navbar = () => {
         { name: "Home", link: "/" },
         { name: "About", link: "/about" },
         { name: "Services", link: "/services" },
-        { name: "Resume", link: "/resume" },
+        { name: "Testimonials", link: "/testimonials" },
         { name: "Portfolio", link: "/portfolio" },
     ];
 
@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='fixed top-0 left-0 w-full flex flex-row justify-between items-center md:px-20 px-10 border border-bottom h-[100px] bg-white z-10'>
+            <div className='fixed top-0 left-0 w-full flex flex-row justify-between items-center md:px-20 px-10 border border-bottom h-[100px] bg-white z-20'>
                 <div>
                     <Text2Xl text={"Naufil Faisal"} classes={"font-syne"} />
                 </div>

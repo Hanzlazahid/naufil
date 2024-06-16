@@ -16,8 +16,11 @@ module.exports = {
         nav: '#77777d',
         dark:'#212121',
         grey:'#d6d6d6',
+        darkGrey:'#919191'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
