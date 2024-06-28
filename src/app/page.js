@@ -5,13 +5,13 @@ import './globals.css';
 
 export default function Home() {
   const cardData = [
-    { src: images.packagesMall, text: "Packages Mall" , name:'hot_pro_2'},
-    { src: images.kurkure, text: "Kurkure: Toofani Mirch", name:'rocket_pro' },
-    { src: images.kurkure, text: "Kurkure: Toofani Mirch", name:'your_view_matters' },
-    { src: images.kurkure, text: "Kurkure: Toofani Mirch", name:'bata' },
-    { src: images.bFirst1, text: "Bata BFirst", name:'anti_bacterial_shoe' },
-    { src: images.bFirst2, text: "Bata BFirst", name:'toofani_mirch' },
-    { src: images.bFirst2, text: "Bata BFirst", name:'packages_mall' },
+    { src: images.packagesMall, text: "Qmobile: It’s Hot Pro 2!" , name:'hot_pro_2'},
+    { src: images.kurkure, text: "Qmobile: Having Fun is easy with Rocket Pro!", name:'rocket_pro' },
+    { src: images.kurkure, text: "Qmobile: #YourViewMatters!", name:'your_view_matters' },
+    { src: images.kurkure, text: "It’s Surprisingly Bata!", name:'bata' },
+    { src: images.bFirst1, text: "Bata: Pakistan’s First Ever Anti-bacterial shoe!", name:'anti_bacterial_shoe' },
+    { src: images.bFirst2, text: "Pepsico: Kurkure’s Toofani Mirch!", name:'toofani_mirch' },
+    { src: images.bFirst2, text: "Packages Mall: Shop Till Glory!", name:'packages_mall' },
   ];
 
   return (
